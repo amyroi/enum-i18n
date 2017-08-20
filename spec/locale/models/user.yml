@@ -1,0 +1,7 @@
+en:
+  activerecord:
+    enum:
+      user:
+        sex:
+          male: "Male"
+          female: "Female"

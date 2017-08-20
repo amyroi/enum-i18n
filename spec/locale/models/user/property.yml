@@ -1,0 +1,7 @@
+en:
+  activerecord:
+    enum:
+      user/property:
+        state:
+          active: "Active"
+          rejected: "Rejected"
