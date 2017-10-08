@@ -22,14 +22,14 @@ Or install it yourself as:
 
 ActiveRecord:
 
-```
+```ruby
 class ApplicationRecord < ActiveRecord::Base
   include EnumI18n
 end
 ```
 
 Or:
-```
+```ruby
 class User < ApplicationRecord
   include EnumI18n
 end
@@ -38,7 +38,7 @@ end
 
 I18n:
 
-```
+```ruby
 ---
 en:
   activerecord:
@@ -51,16 +51,16 @@ en:
 
 get attribute value:
 
-```
+```ruby
 @user.sex_text # or @user.sex.text
 ```
 
 or can appoint i18n scope
 
-```
+```ruby
 @user.sex_text('user.sex')
 ```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/enum_i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/amyroi/enum_i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
