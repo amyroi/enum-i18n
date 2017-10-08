@@ -7,7 +7,7 @@ module EnumI18n
   end
 
   def set_enum_text
-    name = model_name&.i18n_key.to_s
+    name = model_name.try(:i18n_key).to_s
     defined_enums.each do |enum|
       enum_column = enum.first
       class_eval <<-METHOD

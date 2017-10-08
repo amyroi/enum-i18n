@@ -52,7 +52,7 @@ en:
 get attribute value:
 
 ```ruby
-@user.sex_text # or @user.sex.text
+@user.sex_text
 ```
 
 or can appoint i18n scope
