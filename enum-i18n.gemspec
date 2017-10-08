@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "enum_i18n/version"
+require "enum-i18n/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "enum_i18n"
+  spec.name          = "enum-i18n"
   spec.version       = EnumI18n::VERSION
   spec.authors       = ["amyroi"]
   spec.email         = ["atsuko.mori.200@gmail.com"]
 
   spec.summary       = 'Enum attributes with I18n and ActiveRecord support'
   spec.description   = 'Enum attributes with I18n and ActiveRecord support'
-  spec.homepage      = 'https://github.com/amyroi/enum_i18n'
+  spec.homepage      = 'https://github.com/amyroi/enum-i18n'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

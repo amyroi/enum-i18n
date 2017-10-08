@@ -1,4 +1,4 @@
-require "enum_i18n/version"
+require "enum-i18n/version"
 
 module EnumI18n
   extend ActiveSupport::Concern

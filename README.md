@@ -7,7 +7,7 @@ Enum attributes with I18n and ActiveRecord support
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'enum_i18n'
+gem 'enum-i18n'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install enum_i18n
+    $ gem install enum-i18n
 
 ## Usage
 
@@ -63,4 +63,4 @@ or can appoint i18n scope
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/amyroi/enum_i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/amyroi/enum-i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
