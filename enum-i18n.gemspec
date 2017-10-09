@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Enum attributes with I18n and ActiveRecord support'
   spec.description   = 'Enum attributes with I18n and ActiveRecord support'
   spec.homepage      = 'https://github.com/amyroi/enum-i18n'
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
