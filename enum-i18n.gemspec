@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/amyroi/enum-i18n'
   spec.license       = 'MIT'
   spec.metadata      = {
-    'deprecation_warning' => 'This gem is deprecated and will be archived on March 31, 2025. Consider migrating to Rails built-in alternatives or alternative gems.',
+    'deprecation_warning' => 'This gem is deprecated and will be archived on or after August 31, 2025. Consider migrating to Rails built-in alternatives or alternative gems.',
     'github_repo' => 'https://github.com/amyroi/enum-i18n'
   }
 

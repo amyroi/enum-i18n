@@ -1,9 +1,9 @@
 require 'enum-i18n/version'
 
-# DEPRECATED: This gem is deprecated and will be archived on March 31, 2025.
+# DEPRECATED: This gem is deprecated and will be archived on or after August 31, 2025.
 # Consider using Rails built-in human_attribute_name or alternative gems like enum_help.
 # See README.md for migration guide.
-warn 'DEPRECATION WARNING: The enum-i18n gem is deprecated and will be archived on March 31, 2025. Consider migrating to Rails built-in alternatives or alternative gems.'
+warn 'DEPRECATION WARNING: The enum-i18n gem is deprecated and will be archived on or after August 31, 2025. Consider migrating to Rails built-in alternatives or alternative gems.'
 
 module EnumI18n
   extend ActiveSupport::Concern

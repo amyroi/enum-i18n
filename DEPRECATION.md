@@ -1,6 +1,6 @@
 # Deprecation Notice
 
-## ⚠️ This gem is deprecated and will be archived on March 31, 2025 ⚠️
+## ⚠️ This gem is deprecated and will be archived on or after August 31, 2025 ⚠️
 
 ## Why is this gem deprecated?
 
@@ -53,8 +53,7 @@ enumerize :status, in: [:active, :inactive, :pending]
 
 ## Migration Timeline
 
-- **December 2024**: Deprecation notice added
-- **March 31, 2025**: Gem will be archived and removed from RubyGems
+- **August 31, 2025 or later**: Gem will be archived and removed from RubyGems
 
 ## How to migrate
 
@@ -73,3 +72,6 @@ If you need assistance with migration, please:
 ## Thank you
 
 Thank you for using `enum-i18n`. We hope this gem served you well, and we encourage you to migrate to the more modern alternatives available today.
+
+## Archive Date
+**This gem will be archived on or after August 31, 2025.**

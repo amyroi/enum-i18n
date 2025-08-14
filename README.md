@@ -37,7 +37,7 @@ User.human_attribute_name("status.#{@user.status}") # => "Active"
 - **enumerize**: `gem 'enumerize'` - Feature-rich enum management
 
 ## Archive Date
-**This gem will be archived on March 31, 2025.**
+**This gem will be archived on or after August 31, 2025.**
 
 ---
 

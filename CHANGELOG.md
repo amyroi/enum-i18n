@@ -1,8 +1,8 @@
 # Changelog
 
-## [DEPRECATED] - 2024-12-19
+## [DEPRECATED]
 
-⚠️ **This gem is deprecated and will be archived on March 31, 2025.** ⚠️
+⚠️ **This gem is deprecated and will be archived on or after August 31, 2025.** ⚠️
 
 ### Why Deprecated?
 - Rails 7.1+ provides better built-in alternatives using `human_attribute_name`
