@@ -1,3 +1,20 @@
+# Changelog
+
+## [DEPRECATED]
+
+⚠️ **This gem is deprecated and will be archived on or after August 31, 2025.** ⚠️
+
+### Why Deprecated?
+- Rails 7.1+ provides better built-in alternatives using `human_attribute_name`
+- Alternative gems like `enum_help` and `enumerize` are more actively maintained
+- Consider migrating to Rails built-in solutions or alternative gems
+
+### Migration Path
+- **Rails 7.1+**: Use `User.human_attribute_name("status.#{@user.status}")`
+- **Alternative gems**: Consider `enum_help` or `enumerize`
+
+---
+
 # CHANGELOG
 
 # v0.1.1
