@@ -1,5 +1,46 @@
 # EnumI18n
 
+⚠️ **DEPRECATED: This gem is deprecated and will be archived soon.** ⚠️
+
+## Why Deprecated?
+
+This gem was created to provide I18n support for ActiveRecord enums, but Rails now has better built-in alternatives:
+
+- **Rails 7.1+**: Use `human_attribute_name` with enum values
+- **Alternative gems**: Consider using `enum_help` or `enumerize` which are more actively maintained
+
+## Migration Guide
+
+### Before (with enum-i18n):
+```ruby
+class User < ApplicationRecord
+  include EnumI18n
+  enum :status, [:active, :inactive]
+end
+
+# Usage
+@user.status_text # => "Active"
+```
+
+### After (Rails 7.1+):
+```ruby
+class User < ApplicationRecord
+  enum :status, [:active, :inactive]
+end
+
+# Usage
+User.human_attribute_name("status.#{@user.status}") # => "Active"
+```
+
+### Alternative gems:
+- **enum_help**: `gem 'enum_help'` - More actively maintained
+- **enumerize**: `gem 'enumerize'` - Feature-rich enum management
+
+## Archive Date
+**This gem will be archived on March 31, 2025.**
+
+---
+
 Enum attributes with I18n and ActiveRecord support
 
 ## Installation
