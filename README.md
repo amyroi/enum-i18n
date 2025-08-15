@@ -104,4 +104,6 @@ or can appoint i18n scope
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/amyroi/enum-i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/amyroi/enum-i18n. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://contributor-covenant.org) code of conduct.
+
+For bug reports and issues, please use our [GitHub Issues](https://github.com/amyroi/enum-i18n/issues) page.
