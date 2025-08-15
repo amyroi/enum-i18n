@@ -17,6 +17,18 @@
 
 # CHANGELOG
 
+# v0.2.1
+* Update contact information to use GitHub issues instead of email addresses
+* Remove email addresses from gemspec and documentation
+* Add bug tracker and source code URIs to gemspec metadata
+* Update .gitignore to exclude gem files
+
+# v0.2.0
+* Mark gem as deprecated
+* Add deprecation warning to gemspec and README
+* Set archive date to August 31, 2025
+* Update documentation with migration guide
+
 # v0.1.1
 [full changelog]( https://github.com/amyroi/enum-i18n/compare/v0.1.0...v0.1.1)
 

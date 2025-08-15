@@ -10,3 +10,9 @@
 
 # rspec failure tracking
 .rspec_status
+
+# gem files
+*.gem
+
+# IDE files
+.vscode/

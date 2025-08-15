@@ -6,7 +6,6 @@ Gem::Specification.new do |spec|
   spec.name          = 'enum-i18n'
   spec.version       = EnumI18n::VERSION
   spec.authors       = ['amyroi']
-  spec.email         = ['atsuko.mori.200@gmail.com']
 
   spec.summary       = 'Enum attributes with I18n and ActiveRecord support (DEPRECATED)'
   spec.description   = 'Enum attributes with I18n and ActiveRecord support. DEPRECATED: This gem is deprecated and will be archived soon. Consider using Rails built-in human_attribute_name or alternative gems like enum_help.'
@@ -14,7 +13,9 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.metadata      = {
     'deprecation_warning' => 'This gem is deprecated and will be archived on or after August 31, 2025. Consider migrating to Rails built-in alternatives or alternative gems.',
-    'github_repo' => 'https://github.com/amyroi/enum-i18n'
+    'github_repo' => 'https://github.com/amyroi/enum-i18n',
+    'bug_tracker_uri' => 'https://github.com/amyroi/enum-i18n/issues',
+    'source_code_uri' => 'https://github.com/amyroi/enum-i18n'
   }
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
